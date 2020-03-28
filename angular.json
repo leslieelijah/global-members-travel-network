@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "global-members-travel-network-app"
+    }
+  },
+  "defaultProject": "global-members-travel-network-app",
+  "cli": {
+    "analytics": "c4e2074e-6934-4443-be43-e53e8c2826f1"
+  }
 }
