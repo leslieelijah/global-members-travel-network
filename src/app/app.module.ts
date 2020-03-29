@@ -8,6 +8,7 @@ import { BusinessComponent } from './business/business.component';
 import { LocalKnowledgeComponent } from './local-knowledge/local-knowledge.component';
 import { RegisterComponent } from './register/register.component';
 import { GmtnServicesService } from './services/gmtn-services.service';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GmtnServicesService } from './services/gmtn-services.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [GmtnServicesService],
   bootstrap: [AppComponent]
